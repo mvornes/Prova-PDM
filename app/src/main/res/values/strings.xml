@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Prova</string>
+    <string name="title">Candidatos ao Melhor Jogo do Ano:</string>
+    <string name="game1">The Last of Us</string>
+    <string name="game2">Tomb Raider</string>
+    <string name="game3">GTA V</string>
+    <string name="game4">Battlefield 4</string>
+    <string name="note1">Nenhum critério utilizado na seleção dos candidatos.</string>
+    <string name="note2">Esta lista nada tem a ver com a realidade.</string>
+    <string name="btn">Votar!</string>
+    <string name="result">Obrigado pelo seu voto! A opção escolhida foi: </string>
+</resources>

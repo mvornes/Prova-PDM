@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Prova</string>
+    <string name="title">Candidates for the Best Game of the Year:</string>
+    <string name="game1">The Last of Us</string>
+    <string name="game2">Tomb Raider</string>
+    <string name="game3">GTA V</string>
+    <string name="game4">Battlefield 4</string>
+    <string name="note1">No criteria used in the selection of candidates.</string>
+    <string name="note2">This list has nothing to do with reality.</string>
+    <string name="btn">Vote!</string>
+    <string name="result">Thank you for your vote! The choice was: </string>
+</resources>
