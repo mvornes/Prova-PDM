@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Prova</string>
+    <string name="app_name">Prova PDM (PT-BR)</string>
     <string name="title">Candidatos ao Melhor Jogo do Ano:</string>
     <string name="game1">The Last of Us</string>
     <string name="game2">Tomb Raider</string>
@@ -9,4 +9,5 @@
     <string name="note2">Esta lista nada tem a ver com a realidade.</string>
     <string name="btn">Votar!</string>
     <string name="result">Obrigado pelo seu voto! A opção escolhida foi: </string>
+    <string name="about_menu">Sobre</string>
 </resources>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ObrigadoActivity extends AppCompatActivity {
@@ -22,6 +23,11 @@ public class ObrigadoActivity extends AppCompatActivity {
 
         TextView tv = (TextView) findViewById(R.id.result);
         tv.setText(result + params.getString("name"));
+
+        int img = params.getInt("img");
+
+        ImageView iv = (ImageView) findViewById(R.id.img);
+        iv.setImageResource(img);
 
     }
 }

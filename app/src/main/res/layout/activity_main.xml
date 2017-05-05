@@ -2,14 +2,15 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context="com.vornes.prova.MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
 
         <TextView
             android:layout_width="wrap_content"
@@ -18,109 +19,123 @@
 
         <HorizontalScrollView
 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:weightSum="4">
+                android:weightSum="100">
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_weight="1">
+                    android:layout_weight="25">
 
                     <ImageView
                         android:id="@+id/img1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/game1"/>
+                        android:src="@mipmap/game1"
+                        android:layout_weight="100"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/game1"/>
+                        android:text="@string/game1"
+                        android:gravity="center"/>
 
                     <Button
                         android:id="@+id/button1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn"/>
+                        android:text="@string/btn"
+                        android:gravity="center"/>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_weight="1">
+
+                    android:layout_weight="25">
 
                     <ImageView
                         android:id="@+id/img2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@mipmap/game2"/>
+                        android:layout_height="0dp"
+                        android:src="@mipmap/game2"
+                        android:layout_weight="100"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/game2"/>
+                        android:text="@string/game2"
+                        android:gravity="center"/>
 
                     <Button
                         android:id="@+id/button2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn"/>
+                        android:text="@string/btn"
+                        android:gravity="center"/>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_weight="1">
+                    android:layout_weight="25">
 
                     <ImageView
                         android:id="@+id/img3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/game3"/>
+                        android:src="@mipmap/game3"
+                        android:layout_weight="100"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/game3"/>
+                        android:text="@string/game3"
+                        android:gravity="center"/>
 
                     <Button
                         android:id="@+id/button3"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn"/>
+                        android:text="@string/btn"
+                        android:gravity="center"/>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:layout_weight="1">
+                    android:layout_weight="25">
 
                     <ImageView
                         android:id="@+id/img4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/game4"/>
+                        android:src="@mipmap/game4"
+                        android:layout_weight="100"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/game4"/>
+                        android:text="@string/game4"
+                        android:gravity="center"/>
 
                     <Button
                         android:id="@+id/button4"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/btn"/>
+                        android:text="@string/btn"
+                        android:gravity="center"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -128,19 +143,21 @@
         </HorizontalScrollView>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/note1" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/note1"
+                android:gravity="right"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/note2" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/note2"
+                android:gravity="right"/>
 
 
         </LinearLayout>
@@ -149,5 +166,4 @@
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
-
 

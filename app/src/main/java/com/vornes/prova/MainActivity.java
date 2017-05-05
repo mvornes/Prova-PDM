@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ObrigadoActivity.class);
                 Bundle params = new Bundle();
                 params.putString("name", "The Last of Us");
-                params.putString("img", "game1");
+                params.putInt("img", R.mipmap.game1);
                 intent.putExtras(params);
                 startActivity(intent);
             }
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ObrigadoActivity.class);
                 Bundle params = new Bundle();
                 params.putString("name", "Tomb Raider");
-                params.putString("img", "game2");
+                params.putInt("img",  R.mipmap.game2);
                 intent.putExtras(params);
                 startActivity(intent);
             }
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ObrigadoActivity.class);
                 Bundle params = new Bundle();
                 params.putString("name", "GTA V");
-                params.putString("img", "game3");
+                params.putInt("img", R.mipmap.game3);
                 intent.putExtras(params);
                 startActivity(intent);
             }
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ObrigadoActivity.class);
                 Bundle params = new Bundle();
                 params.putString("name", "Battlefield 4");
-                params.putString("img", "game4");
+                params.putInt("img", R.mipmap.game4);
                 intent.putExtras(params);
                 startActivity(intent);
             }
